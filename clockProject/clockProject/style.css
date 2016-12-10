@@ -1,0 +1,73 @@
+#clock {
+    
+    text-align: center;
+    font-size: 150px;
+    font-family: open sans;
+    color: white;
+}
+#date {
+    
+    text-align: center;
+    font-size: 80px;
+    font-family: open sans;
+    color: white;
+    margin-bottom: 20px;
+}
+#weather {
+    color: white;
+    font-family: open sans;
+}
+
+#iconTemp {
+    float: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+#icon {
+    width: 60%;
+    height: 60%;
+    float: left;
+    
+}
+#temp {
+    font-size: 120px;
+    margin-left: 60%;
+    vertical-align: top;
+}
+#announcementHeader {
+    font-family: open sans;
+    font-size: 120px;
+    text-align: center;
+    color:white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#announcements {
+    font-family: open sans;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#announcementsList {
+}
+ul {
+    list-style: none;
+}
+#timer {
+    float: center;
+    text-align: center;
+    color: white;
+    font-family: open sans;
+    font-size: 100px;
+    margin-top: 50px;
+    
+}
+.body2{
+    background-color: black
+}
+.body1 {
+    background-color: #0099ff;
+}

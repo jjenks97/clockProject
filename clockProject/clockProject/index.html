@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>SmartClock</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body class="body1" onload = "startClock()">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills">
+                      <li role="presentation"><a href="index.html">General</a></li>
+                      <li role="presentation"><a href="index2.html">Class</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id='clock'></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id='date'></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id ='weather'>
+                        
+                        <div id="iconTemp">
+                            <img id='icon' src = "#"/>
+                                
+                            <div id='temp'>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col-md-8">
+                    <div id='announcementsList'>
+                        <div id='announcementHeader'>
+                            <h1>Announcements</h1>
+                        </div>
+                        <div id='announcements'>
+                            <ul>
+                                <li>Classes Cancelled</li>
+                                <li>Clayton Chapel at 10:00PM</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
